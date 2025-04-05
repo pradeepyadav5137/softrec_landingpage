@@ -1,162 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SOFTREC - Students of Tiruchirapalli REC</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="overlay">
-      <img src="logo.png" alt="Loading Image" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOFTREC - Students of Tiruchirapalli REC</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="overlay">
+    <img src="logo.png" alt="Loading Image" />
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="SoftRec" /></a>
+      </div>
+      <div class="menu_item">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#alumni">Alumni</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <!-- <li><a href="#updates">Updates</a></li> -->
+          <!-- <li><a href="#Login">Login</a></li> -->
+        </ul>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <div class="logo">
+        <a href="#"><img src="nitt.png" alt="NITT" /></a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1 class="fade-in">Welcome to SOFTREC</h1>
+    <p class="fade-in">
+      Bridging alumni and students & maintaining discipline and decorum.
+    </p>
+    <div class="hero_img"><img src="logo.png" alt=""></div>
+  </section>
+
+  <section id="about" class="slide-in">
+    <div>
+      <h2>About SOFTREC</h2>
     </div>
 
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="#"><img src="logo.png" alt="SoftRec" /></a>
+    <div class="aboutus">
+
+      <div class="about_card">
+        <div class="about_img">
+          <img src="missionpng.png" alt="Logo">
         </div>
-        <div class="menu_item">
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#members">Members</a></li>
-            <li><a href="#alumni">Alumni</a></li>
-            <!-- <li><a href="#updates">Updates</a></li> -->
-            <!-- <li><a href="#Login">Login</a></li> -->
-          </ul>
+        <h2>Mission</h2>
+        <p>Empower MCA students through innovation and skill development.</p>
+        <a href="#"><span class="about_more">
+            <h4>Read more</h4>
+          </span></a>
+      </div>
+
+      <div class="about_card">
+        <div class="about_img">
+          <img src="visionpng.png" alt="Logo">
         </div>
-        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <div class="logo">
-          <a href="#"><img src="nitt.png" alt="NITT" /></a>
+        <h2>Vision</h2>
+        <p> To build a globally connected and tech-driven community.</p>
+        <a href="#"><span class="about_more">
+            <h4>Read more</h4>
+          </span></a>
+      </div>
+
+      <div class="about_card">
+        <div class="about_img">
+          <img src="tech.png" alt="Logo">
         </div>
-      </nav>
-    </header>
+        <h2>Technologies</h2>
+        <p>Leveraging cutting-edge tools for real-world impact.</p>
+        <a href="#"><span class="about_more">
+            <h4>Read more</h4>
+          </span></a>
+      </div>
 
-    <section id="hero">
-      <h1 class="fade-in">Welcome to SOFTREC</h1>
-      <p class="fade-in">
-        Bridging alumni and students & maintaining discipline and decorum.
-      </p>
-      <div class="hero_img"><img src="logo.png" alt=""></div>
-    </section>
+      <div class="about_card">
+        <div class="about_img">
+          <img src="value2.jpg" alt="Logo">
+        </div>
+        <h2>Values</h2>
+        <p>Integrity, collaboration, and lifelong learning.</p>
+        <a href="#"><span class="about_more">
+            <h4>Read more</h4>
+          </span></a>
+      </div>
 
-    <section id="about" class="slide-in">
-        <div><h2>About SOFTREC</h2></div>
-      
-        <div class="aboutus">
-
-          <div class="about_card">
-            <div class="about_img">
-              <img src="missionpng.png" alt="Logo">
-            </div>
-            <h2>Mission</h2>
-            <p>Empower MCA students through innovation and skill development.</p>
-            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
-          </div>
-      
-          <div class="about_card">
-            <div class="about_img">
-              <img src="visionpng.png" alt="Logo">
-            </div>
-            <h2>Vision</h2>
-            <p> To build a globally connected and tech-driven community.</p>
-            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
-          </div>
-      
-          <div class="about_card">
-            <div class="about_img">
-              <img src="tech.png" alt="Logo">
-            </div>
-            <h2>Technologies</h2>
-            <p>Leveraging cutting-edge tools for real-world impact.</p>
-            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
-          </div>
-      
-          <div class="about_card">
-            <div class="about_img">
-              <img src="value2.jpg" alt="Logo">
-            </div>
-            <h2>Values</h2>
-            <p>Integrity, collaboration, and lifelong learning.</p>
-            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
-          </div>
-
-          <div class="about_card" style="height: auto;;">
-            <div class="about_img">
-              <img src="about.png" alt="Logo">
-            </div>
-            <h2>More About US</h2>
-            <p><ul>
-                <li>It’s the oldest club of MCA which was introduced in the year 1989.</li>
-                <li>SOFTREC acts as a bridge between the current batches and the alumni batches</li>
-                <li>The community is expected to be a portal for knowledge & education and to forge relationships with NITT Students</li>
-                <!-- <li></li>
+      <div class="about_card" style="height: auto;;">
+        <div class="about_img">
+          <img src="about.png" alt="Logo">
+        </div>
+        <h2>More About US</h2>
+        <p>
+        <ul>
+          <li>It’s the oldest club of MCA which was introduced in the year 1989.</li>
+          <li>SOFTREC acts as a bridge between the current batches and the alumni batches</li>
+          <li>The community is expected to be a portal for knowledge & education and to forge relationships with NITT
+            Students</li>
+          <!-- <li></li>
                 <li></li> -->
-            </ul></p>
-            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
-          </div>
-        </div>
-      </section>
-      
+        </ul>
+        </p>
+        <a href="#"><span class="about_more">
+            <h4>Read more</h4>
+          </span></a>
+      </div>
+    </div>
+  </section>
 
-    <section id="events" class="slide-in">
-      <h2>Our Events</h2>
-      <div class="event_container">
-        <div class="card">
-          <div class="imgbox">
-            <img src="speilmac2.JPG" height="310px" />
-          </div>
-          <div class="content">
-            <div class="contentBox">
-              <h3>SPEILMAC<br /><span>A thrilling sports showdown for first-year champions!</span></h3>
-            </div>
-          </div>
+
+  <section id="events" class="slide-in">
+    <h2>Our Events</h2>
+    <hr>
+    <div class="event_container">
+      <div class="card">
+        <div class="imgbox">
+          <img src="speilmac2.JPG" height="310px" />
         </div>
-        <div class="card">
-          <div class="imgbox">
-            <img src="AGM-event.JPG" height="310px" />
-          </div>
-          <div class="content">
-            <div class="contentBox">
-              <h3>AGM<br /><span>A grand annual meet reconnecting students with alumni.</span></h3>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgbox">
-            <img src="softech event.JPG" height="310px" />
-          </div>
-          <div class="content">
-            <div class="contentBox">
-              <h3>SOFTECH<br /><span>Guiding students with insights for a successful placement journey.</span></h3>
-            </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>SPEILMAC<br /><span>A thrilling sports showdown for first-year champions!</span></h3>
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="AGM-event.JPG" height="310px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>AGM<br /><span>A grand annual meet reconnecting students with alumni.</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="softech event.JPG" height="310px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>SOFTECH<br /><span>Guiding students with insights for a successful placement journey.</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="members" class="slide-in">
+
+<h2>Our Core Members</h2>
+<hr>    
+    <h2>Faculty Advisor</h2>
+    <div class="member_container">
+      <div class="card">
+        <div class="imgbox">
+          <img src="Eswari R.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Dr. R. Eswari <br><span>
+              Associate Professor
+            </span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <h2> Members 2026</h2>
+
+    <div class="member_container">
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/bala1.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Bala sainath</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/manav.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Manvendra</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/bala1.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Bala sainath</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/manav.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Manvendra</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/bala1.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Bala sainath</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/manav.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Manvendra</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/bala1.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Bala sainath</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/manav.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Manvendra</h3>
+          </div>
+        </div>
+      </div>
+
+
+    
+      <hr> 
+    <h2>Members 2025</h2>
+
+<div class="member_container">
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/bala1.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Bala sainath</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/manav.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Manvendra</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/Anjali.jpeg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Anjali</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/Aman.png" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>AMAN</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/IMG_20230718_201017_824 - Bagiyoshi Madness.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Ashish</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/rakesh kumar.JPG" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Rakesh</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/Ritik Nayak.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Ritik</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbox">
+          <img src="2025/Tiya Roy.jpg" height="355px" />
+        </div>
+        <div class="content">
+          <div class="contentBox">
+            <h3>Tiya Roy</h3>
+          </div>
+        </div>
+      </div>
+      
+      
+  </section>
+
+  <section id="alumni" class="fade-in">
+     
+     <!-- <h2 >/* Alumni */</h2> -->
+     <h2>Alumni Network</h2>
+     <p>
+       SOFTREC helps students connect with alumni for guidance, mentorship, and
+       career growth.
+     </p>
+
+     <hr>
+ 
+     <div class="member_container">
+       <div class="card">
+         <div class="imgbox">
+           <img src="2025/bala1.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>Bala sainath</h3>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/agrawal.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>AGRAWAL</h3>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/aishu.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>AISHU</h3>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/AmanSingh2024 - Aman Singh.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>AMAN</h3>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/Harshit Sharma.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>HARSHIT</h3>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/IMG_20230302_170806_737 - Umang Kumar.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>UMANG</h3>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/neeti.jpeg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>NEETI</h3>
+           </div>
+         </div>
+       </div>
+       <div class="card">
+         <div class="imgbox">
+           <img src="2024/yukta.jpg" height="355px" />
+         </div>
+         <div class="content">
+           <div class="contentBox">
+             <h3>YUKTA</h3>
+           </div>
+         </div>
+       </div>   
+    
+     </div>
     </section>
 
-    <section id="alumni" class="slide-in">
-      <h2>Alumni Network</h2>
-      <p>
-        SOFTREC helps students connect with alumni for guidance, mentorship, and
-        career growth.
-      </p>
-    </section>
+  <section id="contact" class="slide-in">
+    <h2>Contact Us</h2>
+    <p>For admission assistance and other inquiries, reach out to SOFTREC.</p>
 
-    <section id="contact" class="slide-in">
-      <h2>Contact Us</h2>
-      <p>For admission assistance and other inquiries, reach out to SOFREC.</p>
-    </section>
+    <div class="contact">
+        <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/softrecofficial?igsh=aHJ2M2FpMWs3eGd2">Instagram</a></li>
+        <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/company/softrec-nitt/">LinkedIn</a></li>
+        <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=61558763337717&mibextid=rS40aB7S9Ucbxw6v">FaceBook</a></li>
+        
+    </div>
 
-    <footer>
-      <p>&copy; 2025 SOFREC. All rights reserved.</p>
-    </footer>
-  </body>
+   
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SOFREC. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>

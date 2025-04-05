@@ -57,7 +57,7 @@ document.querySelectorAll('.menu_item a').forEach(anchor => {
 window.addEventListener("load", function () {
     setTimeout(() => {
         document.querySelector(".overlay").classList.add("fade-out");
-    }, 2000); // Overlay disappears after 2 seconds
+    }, 1000); // Overlay disappears after 2 seconds
 });
 
 
