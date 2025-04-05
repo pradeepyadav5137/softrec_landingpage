@@ -24,7 +24,7 @@ document.addEventListener('scroll', function () {
 window.addEventListener("scroll", function() {
     let menuItem = document.querySelector(".menu_item");
     
-    if (window.scrollY > 50) { // If scrolled more than 50px
+    if (window.scrollY > 50) { 
         menuItem.classList.add("scrolled");
     } else {
         menuItem.classList.remove("scrolled");
@@ -35,15 +35,15 @@ window.addEventListener("scroll", function() {
 
 document.querySelectorAll('.menu_item a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent default jump
+        e.preventDefault(); 
         
-        const targetId = this.getAttribute('href'); // Get the target section ID
+        const targetId = this.getAttribute('href'); 
         const targetElement = document.querySelector(targetId);
 
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 50, // Adjust offset if needed
-                behavior: 'smooth' // Enable smooth scrolling
+                top: targetElement.offsetTop - 50, 
+                behavior: 'smooth' 
             });
         }
     });
@@ -57,12 +57,12 @@ document.querySelectorAll('.menu_item a').forEach(anchor => {
 window.addEventListener("load", function () {
     setTimeout(() => {
         document.querySelector(".overlay").classList.add("fade-out");
-    }, 1000); // Overlay disappears after 2 seconds
+    }, 1000); 
 });
 
 
 document.querySelectorAll('.about_more').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent any action
+        e.preventDefault(); 
     });
 });
