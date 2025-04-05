@@ -1,8 +1,3 @@
-// Toggle hamburger menu
-// function toggleMenu() {
-//     const navLinks = document.querySelector('.menu_item ul');
-//     navLinks.classList.toggle('active');
-// }
 
 function toggleMenu() {
     const menu = document.querySelector(".menu_item");
@@ -56,9 +51,18 @@ document.querySelectorAll('.menu_item a').forEach(anchor => {
 
 
 
+  
+
+
 window.addEventListener("load", function () {
     setTimeout(() => {
         document.querySelector(".overlay").classList.add("fade-out");
     }, 2000); // Overlay disappears after 2 seconds
 });
 
+
+document.querySelectorAll('.about_more').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Prevent any action
+    });
+});
