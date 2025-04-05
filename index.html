@@ -1,73 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SOFTREC - Students of Tiruchirapalli REC</title>
-     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="styles.css" />
+
     <!-- <link rel="stylesheet" href="new.css"> -->
     <script defer src="script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="overlay">
-        <img src="logo.png" alt="Loading Image">
-    </div> 
+      <img src="logo.png" alt="Loading Image" />
+    </div>
 
     <header>
-        <nav>
-            <div class="logo"><a href="#"><img src="logo.png" alt="SoftRec"></a> </div>
-            <div class="menu_item">
-                <ul >
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#abou">About Us</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#members">Members</a></li>
-                <li><a href="#alumni">Alumni</a></li>
-                <li><a href="#updates">Updates</a></li>
-                <li><a href="#Login">Login</a></li>
-                 
-
-            </ul>
+      <nav>
+        <div class="logo">
+          <a href="#"><img src="logo.png" alt="SoftRec" /></a>
+        </div>
+        <div class="menu_item">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+            <!-- <li><a href="#updates">Updates</a></li> -->
+            <!-- <li><a href="#Login">Login</a></li> -->
+          </ul>
         </div>
         <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <div class="logo"><a href="#"><img src="nitt.png" alt="NITT"></a> </div>
-        </nav>
+        <div class="logo">
+          <a href="#"><img src="nitt.png" alt="NITT" /></a>
+        </div>
+      </nav>
     </header>
-    
+
     <section id="hero">
-        <h1 class="fade-in">Welcome to SOFREC</h1>
-        <p class="fade-in">Bridging alumni and students while maintaining discipline and decorum.</p>
+      <h1 class="fade-in">Welcome to SOFTREC</h1>
+      <p class="fade-in">
+        Bridging alumni and students while maintaining discipline and decorum.
+      </p>
     </section>
 
     <section id="about" class="slide-in">
-        <h2>About SOFREC</h2>
-        <p>SOFREC (Students of Tiruchirapalli Regional Engineering College) serves as a bridge between current batches and alumni, fostering discipline and decorum.</p>
-    </section>
+        <div><h2>About SOFTREC</h2></div>
+      
+        <div class="aboutus">
+
+          <div class="about_card">
+            <div class="about_img">
+              <img src="missionpng.png" alt="Logo">
+            </div>
+            <h2>Mission</h2>
+            <p>Empower MCA students through innovation and skill development.</p>
+            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
+          </div>
+      
+          <div class="about_card">
+            <div class="about_img">
+              <img src="visionpng.png" alt="Logo">
+            </div>
+            <h2>Vision</h2>
+            <p> To build a globally connected and tech-driven community.</p>
+            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
+          </div>
+      
+          <div class="about_card">
+            <div class="about_img">
+              <img src="tech.png" alt="Logo">
+            </div>
+            <h2>Technologies</h2>
+            <p>Leveraging cutting-edge tools for real-world impact.</p>
+            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
+          </div>
+      
+          <div class="about_card">
+            <div class="about_img">
+              <img src="value2.jpg" alt="Logo">
+            </div>
+            <h2>Values</h2>
+            <p>Integrity, collaboration, and lifelong learning.</p>
+            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
+          </div>
+
+          <div class="about_card" style="height: auto;;">
+            <div class="about_img">
+              <img src="about.png" alt="Logo">
+            </div>
+            <h2>More About US</h2>
+            <p><ul>
+                <li>It’s the oldest club of MCA which was introduced in the year 1989.</li>
+                <li>SOFTREC acts as a bridge between the current batches and the alumni batches</li>
+                <li>The community is expected to be a portal for knowledge & education and to forge relationships with NITT Students</li>
+                <!-- <li></li>
+                <li></li> -->
+            </ul></p>
+            <a href="#"><span class="about_more"><h4>Read more</h4></span></a>
+          </div>
+        </div>
+      </section>
+      
 
     <section id="events" class="slide-in">
-        <h2>Our Events</h2>
-        <ul>
-            <li><strong>Spielmac</strong> - A sports event for first-year MCA students.</li>
-            <li><strong>AGM</strong> - Annual General Meeting.</li>
-            <li><strong>Softech</strong> - Various student activities.</li>
-        </ul>
+      <h2>Our Events</h2>
+      <div class="event_container">
+        <div class="card">
+          <div class="imgbox">
+            <img src="speilmac2.JPG" height="310px" />
+          </div>
+          <div class="content">
+            <div class="contentBox">
+              <h3>SPEILMAC<br /><span>A thrilling sports showdown for first-year champions!</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <img src="AGM-event.JPG" height="310px" />
+          </div>
+          <div class="content">
+            <div class="contentBox">
+              <h3>AGM<br /><span>A grand annual meet reconnecting students with alumni.</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <img src="softech event.JPG" height="310px" />
+          </div>
+          <div class="content">
+            <div class="contentBox">
+              <h3>SOFTECH<br /><span>Guiding students with insights for a successful placement journey.</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="alumni" class="slide-in">
-        <h2>Alumni Network</h2>
-        <p>SOFTREC helps students connect with alumni for guidance, mentorship, and career growth.</p>
+      <h2>Alumni Network</h2>
+      <p>
+        SOFTREC helps students connect with alumni for guidance, mentorship, and
+        career growth.
+      </p>
     </section>
 
     <section id="contact" class="slide-in">
-        <h2>Contact Us</h2>
-        <p>For admission assistance and other inquiries, reach out to SOFREC.</p>
+      <h2>Contact Us</h2>
+      <p>For admission assistance and other inquiries, reach out to SOFREC.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 SOFREC. All rights reserved.</p>
+      <p>&copy; 2025 SOFREC. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
