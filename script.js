@@ -1,15 +1,24 @@
 
+// *************************************Hamburgan icon *******************************
+
 function toggleMenu() {
     const menu = document.querySelector(".menu_item");
     menu.classList.toggle("active");
 }
 
 
+
+// *************************************hide menu on select *******************************
+
 document.querySelectorAll(".menu_item ul li a").forEach(item => {
     item.addEventListener("click", () => {
         document.querySelector(".menu_item").classList.remove("active");
     });
 });
+
+
+
+// ************************* slide in animation on scrolling  *******************************
 
 document.addEventListener('scroll', function () {
     const elements = document.querySelectorAll('.slide-in');
@@ -20,6 +29,8 @@ document.addEventListener('scroll', function () {
     });
 });
 
+
+// ********************* change colour of navbar after scroll  *******************************
 
 window.addEventListener("scroll", function() {
     let menuItem = document.querySelector(".menu_item");
@@ -32,6 +43,7 @@ window.addEventListener("scroll", function() {
 });
 
 
+// ************************************** Smooth scroll  **************************************
 
 document.querySelectorAll('.menu_item a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
