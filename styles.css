@@ -225,7 +225,7 @@ nav {
     color: white;
     
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
-    height: 60vh;
+    height: 65vh;
     padding: 100px 20px ;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(230,230,230,1) 17%, rgba(210,210,210,1) 57%, rgba(128,128,128,1) 87%);
@@ -594,7 +594,7 @@ footer {
     color: white;
     padding: 10px;
     margin-top: 20px;
-    /* width: 100%; */
+    
 }
 
 
