@@ -1,0 +1,10 @@
+
+
+**************************************** Code ********************************
+
+Github Repo :- https://github.com/pradeepyadav5137/softrec_landingpage 
+
+
+************************************* Preview ********************************
+
+vercel link :- https://softrec-landingpage.vercel.app/  
